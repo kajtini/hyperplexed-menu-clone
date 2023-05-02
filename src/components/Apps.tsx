@@ -103,7 +103,7 @@ const Apps = () => {
                      size="2x"
                   />
 
-                  <div className="bg-gradient-to-t from-black to-transparent absolute inset-0 opacity-80"></div>
+                  <div className="bg-gradient-to-b from-black to-transparent absolute inset-0 opacity-80"></div>
                </li>
             ))}
          </ul>

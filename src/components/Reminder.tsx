@@ -1,7 +1,7 @@
 import { faBell } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Notification = () => {
+const Reminder = () => {
    // TODO: Probably change name to reminder (like hyperplexed) or sth
 
    return (
@@ -14,4 +14,4 @@ const Notification = () => {
    );
 };
 
-export default Notification;
+export default Reminder;

@@ -2,14 +2,18 @@ import Apps from "./Apps";
 import Info from "./Info";
 import Meals from "./Meals";
 import Movies from "./Movies";
-import Notification from "./Notification";
+import Navigation from "./Navigation";
+import Reminder from "./Reminder";
 
 const Menu = () => {
    return (
-      <div className="flex flex-col gap-14 ">
-         <div className="flex flex-col gap-1">
-            <Info />
-            <Notification />
+      <div className="flex flex-col gap-14">
+         <div>
+            <div className="flex flex-col gap-1 mb-5">
+               <Info />
+               <Reminder />
+            </div>
+            <Navigation />
          </div>
 
          <Meals />
